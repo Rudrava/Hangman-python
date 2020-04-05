@@ -1,0 +1,78 @@
+*************hangman***************
+coded by RUDRAVA 
+form dev CLUB bCA
+
+1>accept the player name 
+
+2>we would show him the promt of rules and point structure
+
+3>start game 
+    loop until user wants 
+    -first show  the empty hanging place
+    - ask if  he wants to guess the total word or
+    letters 
+    then check 
+        if correct 
+        then 
+            print whoa its right bro 
+            gues next 
+        if not 
+            WHAT U DOIN UR GONNA KILL ME 
+            SHOW THE BODY PARTS COMING ON PART BY PART
+            ie   
+                head
+                BODY
+                hand 1
+                hand 2
+                legs 1 then 2
+
+
+check method
+        it takes input [prev if statements]
+        checks if present
+        and returns boolean val
+
+
+
+
+
+
+
+
+
+
+import random
+
+def name ():
+    global name 
+    name=input("Enter name :\n>>>")
+
+words=['a', 'b', 'c']
+
+def word():
+    return random.choice(words)
+
+def play(word):
+    pass
+
+def display():
+    pass
+
+def main():
+    name()
+    word_c=word().upper()
+    play(word_c)
+    while choice=='Y':
+        word_c=word().upper()
+        play(word_c)
+        choice=input("Wanna continue playing(Y/N)").upper()
+
+print(word())
+
+
+
+
+
+
+
+DONE
