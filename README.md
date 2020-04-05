@@ -1,5 +1,5 @@
 # Hangman-python
-just to accustome to python , Very helpful in that sense
+just to accustomed to python , Very helpful in that sense
 
 in thiis particular code
 
